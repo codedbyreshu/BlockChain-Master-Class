@@ -10,42 +10,28 @@ These machines are spread across 12 states with notable counts such as:
 • West Bengal: ~15 ATMs
 • Tamil Nadu: ~15 ATMs
 • Other states like Haryana and Kerala also have some installations (~5 in Kerala).
-
 In cities, listings include places like Delhi, Bengaluru, Chennai, Kolkata, Hyderabad, and Mumbai, though typically only a few machines per major city appear in the public dataset.
 
  How Crypto ATMs Work (Brief & Easy)
-
 Crypto ATMs are machines similar to bank ATMs but built for cryptocurrencies:
-
 🔹 What they allow
-
 ✔ Buy crypto (e.g., Bitcoin, Ethereum, USDT) with cash or card
 ✔ Sell crypto for cash (on some machines)
-
 Some machines are one-way (only buy), and some are two-way (buy and sell).
 
 🔹 How a transaction happens
 
 User approaches the ATM
-
 Selects coin to buy or sell
-
 Enters wallet address (or scans QR code)
-
 Pays cash or card
-
 Crypto is sent to the wallet
-
 For sales: crypto sent to ATM, user gets cash
 
 🔹 Things to know
-
 Machines often support Bitcoin (BTC), Ethereum (ETH), and popular stablecoins like USDT
-
 Fees can be higher than online exchanges
-
 Some machines require phone number or KYC
-
 Availability is not guaranteed — some listings may be inactive
 
 📊 Quick Snapshot Summary
@@ -143,3 +129,63 @@ USA                          	❌ No            	✅ Yes
 Japan	                        ❌ No	            ✅ Yes
 Germany                      	❌ No             	✅ Yes
 UK	                           ❌ No	             ✅ Yes
+
+#CPUs Used for Crypto Miners
+📌 Do miners use CPUs?
+Yes — CPU mining was used in the early days of Bitcoin and is still used today for some cryptocurrencies, especially privacy-focused coins.
+
+🔧 Types of CPUs Used for Mining
+1️⃣ Consumer CPUs (Desktop / Laptop CPUs)
+These are common CPUs used by beginners.
+Examples:
+Intel Core i5 / i7 / i9
+AMD Ryzen 5 / 7 / 9
+Used for:
+Small-scale mining
+Coins like Monero (XMR)
+
+2️⃣ High-Core-Count CPUs (Best for Mining)
+CPUs with many cores and threads are preferred.
+Examples:
+AMD Ryzen Threadripper
+AMD EPYC
+Intel Xeon
+Why used?
+More cores = more hash calculations
+Better performance for CPU-friendly algorithms
+
+3️⃣ Server-Grade CPUs
+Used in professional or industrial mining setups.
+Examples:
+AMD EPYC 7000 series
+Intel Xeon Scalable processors
+Used for:
+Data-center-level mining
+High uptime and stability
+
+4️⃣ ARM CPUs (Limited Use)
+Low-power CPUs mainly for experiments.
+Examples:
+Raspberry Pi
+ARM-based servers
+Used for:
+Learning and testing
+Not profitable for mining
+
+🪙 Coins Commonly Mined Using CPUs
+Monero (XMR)
+Raptoreum (RTM)
+VerusCoin (VRSC)
+Haven Protocol (XHV)
+(These use CPU-friendly algorithms like RandomX.)
+
+⚠️ Important Note
+Bitcoin is NOT mined using CPUs anymore
+Bitcoin uses ASIC miners, not CPUs
+
+⭐ Key Takeaways (Very Important)
+CPU mining uses general-purpose processors
+Best CPUs have high core and thread counts
+AMD CPUs are generally preferred over Intel for mining
+CPU mining is suitable for privacy coins, not Bitcoin
+CPU mining is less powerful than GPU or ASIC mining
