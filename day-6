@@ -1,15 +1,15 @@
 #Distributed Ledger and Bitcoin Notes
 
 ##Distributed Ledger
-Databases that store a copy of all transactions that have happened. Every participant in the blockchain network has a copy of the ledger.
+Distributed Ledgers are Databases that store a copy of all transactions that have happened. Every single participant in the blockchain network has a copy of the ledger.
 
 ##Block Structure
 Header contains version information, nonce, previous block ID and timestamp.
 
 ###Merkle: A hash built from the block’s transaction list.
-List of records: Identification of hashes.
 
-##Header Contents
+##List of records: Identification of hashes that were included into the block"s merkle trees.
+Block Header Containts:
 - Previous block hash
 - Timestamp
 - Nonce
