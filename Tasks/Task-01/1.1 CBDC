@@ -1,0 +1,70 @@
+CENTRAL BANK DIGITAL CURRENCY (CBDC)
+==================================
+
+1. Definition
+-------------
+Central Bank Digital Currency (CBDC) is digital money issued by a
+central bank, having the same value and legal status as physical cash.
+
+
+2. Examples of CBDC
+------------------
+- India : Digital Rupee (e₹) issued by RBI
+- China : Digital Yuan
+- USA   : Digital Dollar (pilot)
+- EU    : Digital Euro (proposed)
+
+
+3. Key Features of CBDC
+----------------------
+- Issued by the Central Bank
+- Legal tender (must be accepted)
+- Backed by government
+- Exists only in digital form
+- Highly secure (DLT / blockchain-based)
+
+
+4. Types of CBDC
+---------------
+
+4.1 Retail CBDC:
+- Used by the general public
+- Used for daily payments
+- Similar to cash / UPI
+- Example: India’s e₹-Retail (e₹-R)
+
+4.2 Wholesale CBDC:
+- Used by banks and financial institutions
+- Used for inter-bank settlements
+- Used in government securities
+- Example: India’s e₹-Wholesale (e₹-W)
+
+
+5. CBDC vs Cash vs Cryptocurrency
+--------------------------------
+
+Feature              CBDC            Cash            Cryptocurrency
+Issuer               Central Bank    Central Bank    Private entities
+Legal Tender         Yes             Yes             No
+Physical Form        No              Yes             No
+Value Stability      Stable           Stable          Volatile
+Blockchain / DLT     Yes              No              Yes
+Government Control   High             High            None
+
+
+6. Why Countries Introduce CBDC
+-------------------------------
+- Reduce cash handling costs
+- Prevent fake currency
+- Faster digital payments
+- Financial inclusion
+- Better control over money supply
+- Support digital economy
+
+
+7. CBDC in India (Exam Important)
+--------------------------------
+- Introduced by : Reserve Bank of India (RBI)
+- Name          : Digital Rupee (e₹)
+- Technology    : DLT (Blockchain-based)
+- Status        : Pilot phase
