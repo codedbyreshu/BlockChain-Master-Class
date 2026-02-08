@@ -103,14 +103,14 @@ Advantages of Blockchain
 	•	Transparency
 	•	No duplication
 13. Centralized System (Web 2.0)
-Architecture: Central Server → Internet → Device
+Architecture:Central Server → Internet → Device
 Example: WhatsApp
 Explanation:
 	•	Data is stored in a centralized database server
 	•	All user information is controlled by a single authority
 	•	User data may be shared or leaked without user awareness
 14. Decentralized System (Web 3.0)
-Architecture: Transaction → Block 1 → Block 2 → Block 3
+Architecture:Transaction → Block 1 → Block 2 → Block 3
 	•	Data is stored in a distributed ledger
 	•	If 1 BTC is transferred in Block 3, all blocks record the transaction
 	•	Only the current block is encrypted
@@ -158,7 +158,7 @@ Cryptocurrency is a digital currency verified and maintained by a decentralized 
 Price History:
 	•	Highest Price: 10,263,984 (2025)
 	•	Lowest Price: 0.2 (2013)
-Bitcoin is called the Mother Coin. Other cryptocurrencies are called Altcoins.
+Bitcoin is called the Mother Coin.Other cryptocurrencies are called Altcoins.
 
 
 
