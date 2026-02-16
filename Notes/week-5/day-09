@@ -1,0 +1,190 @@
+====================================================
+ETHEREUM
+====================================================
+
+====================================================
+1. Introduction to Ethereum
+====================================================
+
+- Founded in 2015 by Vitalik Buterin.
+- A decentralized platform that runs smart contracts.
+- Native cryptocurrency: Ether (ETH).
+- Key Components:
+    • Smart Contracts
+    • Gas
+    • Ethereum Virtual Machine (EVM)
+- Supports Decentralized Applications (DApps).
+
+====================================================
+2. Enterprise Ethereum Alliance (EEA)
+====================================================
+
+- Formed in 2017.
+- Consortium of:
+    • Technology companies
+    • Financial institutions
+    • Startups
+    • Academics
+- Promotes Ethereum technology for enterprise use.
+- Focus Areas:
+    • Private networks
+    • Security
+    • Interoperability
+    • Standard guidelines
+- Example Members:
+    • Accenture
+    • Intel
+    • Microsoft
+    • JP Morgan
+- Industry Sectors:
+    • Healthcare
+    • Energy
+    • Technology
+    • Banking
+
+====================================================
+3. Smart Contracts
+====================================================
+
+- Self-executing programs stored on Ethereum blockchain.
+- Written in Solidity.
+- Compiled into bytecode.
+- Executed by the Ethereum Virtual Machine (EVM).
+- Used for:
+    • DeFi
+    • Tokens
+    • Agreements
+    • DApps
+- Automatically execute when predefined conditions are met.
+
+====================================================
+4. Ethereum Virtual Machine (EVM)
+====================================================
+
+- Runtime environment for smart contracts.
+- Stack-based architecture (LIFO).
+- Stack size:
+    • 1024 elements
+    • Each element = 256 bits (32 bytes)
+- Ensures deterministic execution across the network.
+
+====================================================
+5. Ether (ETH)
+====================================================
+
+Ether is the primary digital asset of Ethereum.
+
+- Used as transactional token.
+- Facilitates operation of Ethereum network.
+- All Gas fees are paid in Ether.
+
+====================================================
+6. Bitcoin vs Ethereum
+====================================================
+
+BITCOIN                                   ETHEREUM
+------------------------------------------------------------------
+Uses SHA-256                              Uses Ethash (PoW)*
+Used as digital currency                  Used for DApps & Smart Contracts
+Competes with FIAT & Gold                 Programmable blockchain
+Slower transaction speed                  Faster transaction speed
+High mining cost                          Gas-based fee system
+
+*Note: Ethereum moved to Proof of Stake (PoS).
+
+====================================================
+7. Gas and Gas Price
+====================================================
+
+- Gas measures computational effort.
+- Gas Fee = Gas Limit × Gas Price.
+- Paid in Ether (ETH).
+- Prevents:
+    • Network spam
+    • Infinite loops
+    • Abuse of smart contracts
+
+====================================================
+8. Ethereum Accounts
+====================================================
+
+Two Types:
+
+1. Externally Owned Account (EOA)
+   - Controlled by private key.
+   - Can send transactions.
+   - Initiates contract creation.
+
+2. Contract Account
+   - Controlled by smart contract code.
+   - Executes automatically when triggered.
+
+====================================================
+9. Ethereum Mining (PoW Concept - Historical)
+====================================================
+
+- Process of validating transactions.
+- Adding blocks to blockchain.
+- Used Proof of Work (PoW) previously.
+- Miners received:
+    • Block rewards
+    • Transaction fees
+
+Uncle Blocks:
+- Valid blocks not included in main chain.
+- Receive partial reward.
+
+====================================================
+10. DAO (Decentralized Autonomous Organization)
+====================================================
+
+- Internet-based organization.
+- Governed by smart contracts.
+- Community voting system.
+- No centralized authority.
+- Transparent governance model.
+
+====================================================
+11. Swarm
+====================================================
+
+- Decentralized storage system for Ethereum.
+- Content distribution service.
+- Uses:
+    • Chunking
+    • Merkle Trees
+- Stores:
+    • DApp code
+    • Blockchain data
+- Peer-to-peer data sharing.
+
+====================================================
+12. IPFS (InterPlanetary File System)
+====================================================
+
+- Decentralized file storage protocol.
+- Uses content addressing (CID).
+- Distributed global namespace.
+- Frequently integrated with Ethereum DApps.
+
+====================================================
+13. BitTorrent
+====================================================
+
+- Peer-to-peer file sharing protocol.
+- Uses torrent files and trackers.
+- Efficient distribution of large files.
+- Distributed network architecture.
+
+====================================================
+14. Whisper (Decentralized Messaging)
+====================================================
+
+- Identity-based messaging protocol.
+- Encrypted peer-to-peer communication.
+- Low-level decentralized communication API.
+- Designed for privacy and anti-tracking.
+
+====================================================
+END OF NOTES
+====================================================

@@ -1,0 +1,190 @@
+====================================================
+BITCOIN MINING
+====================================================
+
+Prepared by : Reshma S
+Date        : 11.02.2026
+Day         : 08
+
+====================================================
+1. What is Bitcoin Mining?
+====================================================
+
+Bitcoin mining is the process of creating new Bitcoin
+by solving complex mathematical puzzles.
+
+Mining helps to:
+
+- Verify the legitimacy of transactions
+- Include verified transactions into a block
+- Reach consensus among all active nodes
+- Add a new block to the blockchain after consensus
+
+Bitcoin has a limited supply (21 million BTC).
+Mining creates scarcity → demand increases → price impact possible.
+
+Example:
+Gold scarcity principle
+Bitcoin Halving reduces block rewards over time.
+
+----------------------------------------------------
+2. Step 1: Transaction Verification and Inclusion
+----------------------------------------------------
+
+- Each node verifies received transactions.
+- Valid transactions are stored in the mempool.
+- Miners bundle transactions into a candidate block.
+
+Example Flow:
+A → B → C
+A sends 2 BTC to C
+
+----------------------------------------------------
+3. Step 2: Proof of Work (PoW)
+----------------------------------------------------
+
+Miners attempt to find a nonce value that produces
+a block hash with required leading zeros.
+
+Block Header Includes:
+
+- Version
+- Merkle Root
+- Previous Block Hash
+- Difficulty Target
+- Nonce
+- Timestamp
+
+Miners repeatedly change the nonce until:
+Hash < Difficulty Target
+
+----------------------------------------------------
+4. Step 3: Creation of New Block
+----------------------------------------------------
+
+- When a valid hash is found,
+  the block is broadcast to the network.
+- Nodes verify the block.
+- If valid → block is added to blockchain.
+
+Existing Chain + New Block = Extended Chain
+
+----------------------------------------------------
+5. Orphan Block
+----------------------------------------------------
+
+When two miners find valid blocks at the same time:
+
+- Both blocks are broadcast.
+- Network eventually accepts one block.
+- The rejected block becomes an Orphan Block.
+- No reward is given for orphan blocks.
+
+----------------------------------------------------
+6. Bitcoin Core
+----------------------------------------------------
+
+6.1 What is Bitcoin Core?
+
+Bitcoin Core is full node software that:
+- Stores blockchain data
+- Validates transactions
+- Maintains network rules
+
+6.2 Download Source
+
+Website:
+https://bitcoin.org/en/
+
+Documentation:
+http://developer.bitcoin.org/en/doc/code/
+
+Installation Steps (Windows Example):
+
+1. Download Bitcoin Core
+2. Choose Operating System (Windows)
+3. Install software
+4. Extract zip file
+5. Run using:
+   - Command Prompt (cmd)
+   - bitcoin-qt (GUI)
+
+----------------------------------------------------
+7. Private Local Blockchain / Testnet
+----------------------------------------------------
+
+Testnet:
+- Public testing blockchain
+- No real money involved
+- Used for experimentation
+
+Regtest:
+- Private local blockchain
+- Instant block generation
+- Best for classroom practice
+
+Running Bitcoin Daemon:
+
+Command:
+bitcoind
+
+Purpose:
+- Runs blockchain node in background
+
+Node =
+System + Blockchain Server
+
+----------------------------------------------------
+8. Differences Between Bitcoin & Ethereum
+----------------------------------------------------
+
+Bitcoin                          Ethereum
+-------------------------------------------------------------
+Bitcoin Core                     Geth
+bitcoin.org                      geth.ethereum.org
+Testnet                          Sepolia Testnet
+Regtest                          Hardhat / Ganache
+Bitcoin CLI                      Geth Console / Hardhat
+Focus: UTXO model                Focus: Smart Contracts
+Teaches blockchain basics        Teaches dApp development
+
+bitcoind:
+Local storage + node software
+
+----------------------------------------------------
+9. Proof of Work (PoW) vs Proof of Stake (PoS)
+----------------------------------------------------
+
+Proof of Work (PoW)
+
+- Verification done by miners
+- Requires computational power
+- High electricity consumption
+- Hardware investment required
+- Runs 24/7
+- Miners receive block rewards
+
+Drawbacks:
+- Expensive
+- Energy intensive
+
+----------------------------------------------------
+
+Proof of Stake (PoS)
+
+- Validation done by validators
+- Validators stake cryptocurrency
+- Block rewards distributed automatically
+- Lower energy consumption
+- Some systems allow passive participation
+
+----------------------------------------------------
+10. Reference Links
+----------------------------------------------------
+
+Bitcoin Official Website:
+https://bitcoin.org/en/
+
+====================================================
+END OF NOTES
+====================================================
